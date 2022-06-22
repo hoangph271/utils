@@ -4,9 +4,7 @@ const ytdl = require('ytdl-core')
 const ytpl = require('ytpl')
 const sanitizeFilename = require('sanitize-filename')
 
-const {
-  VIDEO_DIR = 'videos',
-} = process.env
+const { VIDEO_DIR = 'videos' } = process.env
 
 const LIST_URL = 'https://www.youtube.com/playlist?list=PLpISLnShJQ2a0n2i_h6DPtOWn_v_KhL-S'
 
