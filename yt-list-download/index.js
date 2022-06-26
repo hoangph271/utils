@@ -14,16 +14,17 @@ async function main() {
   for (let i = 0; i < items.length; i++) {
     const videoUrl = items[i].url
     const { title } = (await ytdl.getBasicInfo(videoUrl, {})).videoDetails
-
-    const videoPath = path.join(VIDEO_DIR, `${sanitizeFilename(title)}.mp3`)
-    const ws = fs.createWriteStream(videoPath)
-
-    ytdl(videoUrl, {
-      quality: 'highestaudio'
-    }).pipe(ws)
+    const videoPath = path.join(VIDEO_DIR, `${sanitizeFilename(title)}.flv`)
 
     await new Promise(resolve => {
-      ws.once('close', resolve)
+      const ws = fs.createWriteStream(videoPath)
+
+      ws.once('finish', resolve)
+
+      ytdl(videoUrl, {
+        filter: 'audioonly',
+        format: 'flv',
+      }).pipe(ws)
     })
 
     console.info(`Downloaded [${i}/${items.length}]: ${videoPath}`)
