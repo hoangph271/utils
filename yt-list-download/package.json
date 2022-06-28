@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
     "sanitize-filename": "^1.6.3",
     "ytdl-core": "^4.11.0",
     "ytpl": "^2.3.0"
