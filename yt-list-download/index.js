@@ -70,7 +70,7 @@ async function main() {
       await downloadMp4(videoUrl, videoPath)
     }
 
-    console.info(`[Done] [${i + }/${items.length}]: ${videoPath}`)
+    console.info(`[Done] [${i + 1}/${items.length}]: ${videoPath}`)
   }
 }
 
