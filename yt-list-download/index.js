@@ -3,6 +3,7 @@ const ytdl = require('ytdl-core')
 const ytpl = require('ytpl')
 const ffmpeg = require('fluent-ffmpeg')
 const sanitizeFilename = require('sanitize-filename')
+const fs = require('fs-extra')
 
 const {
   VIDEO_DIR = 'videos',
@@ -63,6 +64,12 @@ async function main() {
     const isMp3 = OUTPUT === 'mp3'
     const ext = isMp3 ? 'mp3' : 'mp4'
     const videoPath = path.join(VIDEO_DIR, `${sanitizeFilename(title)}.${ext}`)
+
+    if (await fs.pathExists(videoPath)) {
+      // TODO: env to toggle skipping...?
+      console.info(`[Skip] ${videoPath}`)
+      continue
+    }
 
     if (isMp3) {
       await downloadMp3(videoUrl, videoPath)
