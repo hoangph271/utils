@@ -17,57 +17,17 @@ async function main() {
   const { items } = await ytpl(LIST_URL, { pages: Number.POSITIVE_INFINITY })
 
   for (let i = 0; i < items.length; i++) {
-    const videoUrl = items[i].url
-    const { title } = (await ytdl.getBasicInfo(videoUrl, {})).videoDetails
-
-    const downloadMp3 = async (videoUrl, outputPath) => {
-      const source = ytdl(videoUrl, {
-        filter: 'audioonly',
-        format: 'flv',
-      })
-
-      const process = new ffmpeg({ source })
-      process.setFfmpegPath(FFMPEG_PATH)
-      process.withAudioCodec('libmp3lame')
-        .toFormat('mp3')
-        .output(require('fs').createWriteStream(outputPath))
-        .run()
-
-      return new Promise(resolve => {
-        process.on('end', resolve)
-      })
-    }
-
-    // ! Not sure if this function works
-    const downloadMp4 = (videoUrl, outputPath) => {
-      // const ws = require('fs').createWriteStream(videoPath)
-      // ytdl(videoUrl, { format: bestFormat }).pipe(ws)
-
-      // ws.once('finish', () => {
-      //   resolve()
-      //   console.info(`Saved: ${videoPath}`)
-      // })
-
-      const process = new ffmpeg({ source })
-
-      process.setFfmpegPath(FFMPEG_PATH)
-      process.withAudioCodec('libmp3lame')
-        .toFormat('mp4')
-        .output(require('fs').createWriteStream(videoPath))
-        .run()
-
-      return new Promise(resolve => {
-        process.on('end', resolve)
-      })
-    }
+    const { url: videoUrl, title } = items[i]
 
     const isMp3 = OUTPUT === 'mp3'
     const ext = isMp3 ? 'mp3' : 'mp4'
     const videoPath = path.join(VIDEO_DIR, `${sanitizeFilename(title)}.${ext}`)
 
+    const index = `[${i + 1}/${items.length}]`
+
     if (await fs.pathExists(videoPath)) {
       // TODO: env to toggle skipping...?
-      console.info(`[Skip] ${videoPath}`)
+      console.info(`[Skip] ${index}: ${videoPath}`)
       continue
     }
 
@@ -77,8 +37,50 @@ async function main() {
       await downloadMp4(videoUrl, videoPath)
     }
 
-    console.info(`[Done] [${i + 1}/${items.length}]: ${videoPath}`)
+    console.info(`[Done] ${index}: ${videoPath}`)
   }
 }
 
 main()
+
+
+const downloadMp3 = async (videoUrl, outputPath) => {
+  const source = ytdl(videoUrl, {
+    filter: 'audioonly',
+    format: 'flv',
+  })
+
+  const process = new ffmpeg({ source })
+  process.setFfmpegPath(FFMPEG_PATH)
+  process.withAudioCodec('libmp3lame')
+    .toFormat('mp3')
+    .output(require('fs').createWriteStream(outputPath))
+    .run()
+
+  return new Promise(resolve => {
+    process.on('end', resolve)
+  })
+}
+
+// ! Not sure if this function works
+const downloadMp4 = (videoUrl, outputPath) => {
+  // const ws = require('fs').createWriteStream(videoPath)
+  // ytdl(videoUrl, { format: bestFormat }).pipe(ws)
+
+  // ws.once('finish', () => {
+  //   resolve()
+  //   console.info(`Saved: ${videoPath}`)
+  // })
+
+  const process = new ffmpeg({ source })
+
+  process.setFfmpegPath(FFMPEG_PATH)
+  process.withAudioCodec('libmp3lame')
+    .toFormat('mp4')
+    .output(require('fs').createWriteStream(videoPath))
+    .run()
+
+  return new Promise(resolve => {
+    process.on('end', resolve)
+  })
+}
