@@ -7,7 +7,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^10.1.0",
     "sanitize-filename": "^1.6.3",
-    "ytdl-core": "^4.11.1",
+    "ytdl-core": "^4.11.2",
     "ytpl": "^2.3.0"
   },
   "devDependencies": {
