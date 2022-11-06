@@ -67,10 +67,7 @@ const downloadMp4 = async (videoUrl, outputPath) => {
   ytdl(videoUrl, { filter: 'audioandvideo', format: 'mp4' }).pipe(ws)
 
   await new Promise((resolve) => {
-    ws.once('finish', () => {
-      resolve()
-      console.info(`Saved: ${outputPath}`)
-    })
+    ws.once('finish', () => resolve())
   })
 
   // const process = new ffmpeg({ source: fs.createReadStream(outputPath) })
