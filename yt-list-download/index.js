@@ -5,6 +5,8 @@ const ffmpeg = require('fluent-ffmpeg')
 const sanitizeFilename = require('sanitize-filename')
 const fs = require('fs-extra')
 
+require('dotenv').config()
+
 const {
   VIDEO_DIR = 'videos',
   FFMPEG_PATH = '/opt/homebrew/bin/ffmpeg',
