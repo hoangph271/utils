@@ -14,32 +14,39 @@ async function main() {
     const { items } = await ytpl(input.url, { pages: Number.POSITIVE_INFINITY })
 
     for (let i = 0; i < items.length; i++) {
-      const { url: videoUrl, title } = items[i]
-
-      const ext = input.onlyAudio ? 'mp3' : 'mp4'
-      const videoPath = path.join(input.directory, `${sanitizeFilename(title)}.${ext}`)
-
-      const index = `[${i + 1}/${items.length}]`
-
-      if (await fs.pathExists(videoPath)) {
-        // TODO: env to toggle skipping...?
-        console.info(`[Skip] ${index}: ${videoPath}`)
-        continue
-      }
-
-      if (input.onlyAudio) {
-        await downloadMp3(videoUrl, videoPath)
-      } else {
-        await downloadMp4(videoUrl, videoPath)
-      }
-
-      console.info(`[Done] ${index}: ${videoPath}`)
+      await downloadItem(i, items, input)
+        .catch((err) => {
+          console.error(err)
+          console.info(`Failed: ${items[i].title}`)
+        })
     }
   }
 }
 
 main()
 
+const downloadItem = async (i, items, input) => {
+  const { url: videoUrl, title } = items[i]
+
+  const ext = input.onlyAudio ? 'mp3' : 'mp4'
+  const videoPath = path.join(input.directory, `${sanitizeFilename(title)}.${ext}`)
+
+  const index = `[${i + 1}/${items.length}]`
+
+  if (await fs.pathExists(videoPath)) {
+    // TODO: env to toggle skipping...?
+    console.info(`[Skip] ${index}: ${videoPath}`)
+    return
+  }
+
+  if (input.onlyAudio) {
+    await downloadMp3(videoUrl, videoPath)
+  } else {
+    await downloadMp4(videoUrl, videoPath)
+  }
+
+  console.info(`[Done] ${index}: ${videoPath}`)
+}
 
 const downloadMp3 = async (videoUrl, outputPath) => {
   const source = ytdl(videoUrl, {
