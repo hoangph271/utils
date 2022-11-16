@@ -1,0 +1,1495 @@
+﻿#,Question,Answer,,,,,R1,,,,
+1,"HOTSPOT -
+The owner of a company needs to know who signs into the system.
+You need to ensure that the owner can view the user audit logs.
+Where does each action need to be performed? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"System settings
+Microsoft 365 Compliance","1, 4",,,"A, D",,,,
+2,"Your organization does not permit the use of custom code for solutions.
+You need to create a view that can be viewed by all users in an organization.
+Where should you create the view?","A. List view of the entity
+B. Microsoft Visual Studio
+C. Templates area
+D. Maker portal",A,1,,,A,,,,
+3,"You create a Power Apps portal to provide training and documentation for students. Students create a profile on the portal and then select and pay for courses.
+You plan to add free courses to the training portfolio. Free courses must be automatically available to all students after they sign in.
+You need to assign default permissions to students.
+What should you do?","A. Create a Students web role and set the Authenticated Users Role option to true. Assign the web role to each registered user.
+B. Create an entity for managing free courses. Create entity permission records to provide access to entity records for free courses and assign the entity permissions to users when they register on the portal for the first time.
+C. Create an entity for managing free courses. Create a Students web role and set the Authenticated Users role option to true. Create appropriate entity permissions to access the free course entity records and assign the entity permissions to the web role.",C,c,,,C,,,,
+4,"HOTSPOT -
+You create workflows to automate business processes.
+You need to configure a workflow to meet the following requirements:
+✑ Be triggered when a condition is met.
+✑ Run immediately.
+✑ Perform an action when a condition is met.
+You need to create a workflow that automatically sends emails based on a mail merge template. To answer, select the appropriate configuration in the answer area.
+NOTE: Each correct selection is worth one point.",,"Subject contains data
+Configuare the wf to run now
+Send an email","2, 2,1",,,"B, B, A",,,,
+5,"HOTSPOT -
+You are a Dynamics 365 Customer Service administrator.
+You need to configure the following automation for the sales team:
+✑ Send an email when the status changes on an Opportunity.
+✑ Text the sales manager when an Opportunity is created.
+✑ Create a Wunderlist task when an Opportunity is open for 30 days.
+
+Which tool should you use for each requirement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"1, 2, 2","1, 2,2",,,"A, B, B",,,,
+6,"A company uses Microsoft Dataverse to manage prospects. The company has a business process flow named BPFA that is associated with the Prospect entity to streamline the prospect management process.
+You add a field named Category to the Prospect entity. You create additional business process flows. You apply the business process flows to Prospect records based on the selected category. Users can switch to any other newly configured business process flows but must not use BPFA.
+You need to configure the solution.
+What are two possible ways to achieve this goal? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.","A. Remove all of the privileges for BPFA.
+B. Use a business rule to prevent users from switching to BPFA.
+C. Deactivate BPFA.
+D. Change the display order of the business process flows to move BPFA to the bottom of the list.","A, C","a, c",,,"A, C",,,,
+7,"You are creating a business rule to implement new business logic.
+You must apply the business logic to a canvas app that has a single screen named Screen1.
+You need to configure the scope for the business rule.
+Which scope should you use?","A. Screen1
+B. Entity
+C. All Forms
+D. Global",B,b,,,B,,,,
+8,"HOTSPOT -
+You are a Dynamics 365 Customer Services administrator. You have a Production instance and Sandbox instance.
+Users record Production instance data in the Sandbox instance.
+You need to ensure that the users only record data in the Production instance.
+Which security function needs to be edited to prevent access to the Sandbox? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"Groups
+Groups","2, 2",,,"B, B",,,,
+9,"You must create a new entity to support a new feature for an app. Records for the entity must be associated with a business unit and specify security roles for the business unit.
+You need to configure entity ownership.
+Which entity ownership type should you use?","A. user or team owned
+B. organization-owned
+C. none
+D. business-owned",A,a,,,A,,,,
+10,"HOTSPOT -
+You need to ensure that there are no leads for a customer before you create a new opportunity for the customer.
+How can you use duplicate detection rules to achieve this goal? To answer, select the appropriate options in the answer area.",,"Lead
+Account","1,2",,,"A, B",,,,
+11,"You have two Microsoft Power Platform environments.
+Users in one environment must not be able to see the other environment.
+You need to grant salespeople access to the sales company environment.
+What should you do?","A. Add salespeople to an Office 365 security group.
+B. Add salespeople to a security role.
+C. Set privileges.
+D. Set app security.",A,a,,,A,,,,
+12,"A veterinary office plans to use Power Platform to streamline customer experiences. The customer creates a canvas apps to manage appointments.
+On the client appointment form, there is a dropdown field for clients to select their type of pet. If a client selects the option Other, the veterinarian wants a text field to appear so that additional details can be added.
+You need to create a dynamically visible field.
+What should you configure?","A. workflow
+B. business process flow
+C. business rule",C,c,,,C,,,,
+13,"You create an app for the sales team at a company.
+Members of the sales team cannot access the app.
+You need to ensure that sales team members can access the app.
+Where should you configure app permissions?","A. Dynamics administration center
+B. Manage Roles
+C. Security Roles",B,b,,,B,,,,
+14,"You create a parent entity and a child entity. The parent entity has a 1:N relationship with the child entity.
+You need to ensure that when the owner changes on the parent record that all child records are assigned to the new owner.
+You need to configure the relationship behavior type.
+What should you use?","A. Referential
+B. Referential, Restrict Delete
+C. Parental
+D. Restrict",C,c,,,C,,,,
+15,"DRAG DROP -
+You need to recommend a role for users to perform several required tasks. The solution must use the principle of least privilege.
+Which roles should you recommend? To answer, drag the appropriate roles to the correct functions. Each role may be used once, more than once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"O365 Global administrator
+Dynamic 365 system admin
+Dynamic 365 service admin","1,4,3",,,"A, D, C",,,,
+16,"You are designing an app for a bank.
+You must create entities for the app and configure relationships between entities:
+
+
+
+
+
+
+Which relationship types should you use? To answer, drag the appropriate relationship types to the correct requirements. Each relationship type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"N:1
+N:N
+N:1","3,2,3",,,"C, B, C",,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,
+17,"You administer the Microsoft 365 and Power Platform environments for Contoso, Ltd. The company has a a model-driven app that is used to track customer interactions with employees. The app uses standard table types for customers. A user named Elisabeth Rice signs in to the app by using the following sign in name: Elisabeth.Rice@contoso.com.
+After marriage, Elisabeth changes her legal name to Elisabeth Mueller.
+You need to update the sign in name for the user without losing any application history.
+Solution: Change Elizabeth's username in the user record for the app.
+Does the solution meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,
+18,"
+You administer the Microsoft 365 and Power Platform environments for Contoso, Ltd. The company has a model-driven app that is used to track customer interactions with employees. The app uses standard table types for customers. A user named Elisabeth Rice signs in to the app by using the following sign in name: Elisabeth.Rice@contoso.com.
+After marriage, Elisabeth changes her legal name to Elisabeth Mueller.
+You need to update the sign in name for the user without losing any application history.
+Solution: Ask the Microsoft 365 administrator to sign in to the admin portal and change the username.
+Does the solution meet the goal?","A. Yes
+B. No",A,a,,,A,,,,,
+19,"You administer the Microsoft 365 and Power Platform environments for Contoso, Ltd. The company has a model-driven app that is used to track customer interactions with employees. The app uses standard table types for customers. A user named Elisabeth Rice signs in to the app by using the following sign in name: Elisabeth.Rice@contoso.com.
+After marriage, Elisabeth changes her legal name to Elisabeth Mueller.
+You need to update the sign in name for the user without losing any application history.
+Solution: Delete the user account in the Power Platform admin portal and recreate the account by using the new name.
+Does the solution meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,
+20,"HOTSPOT -
+You need to create a system chart for the Account entity.
+The chart must display a count of accounts grouped by owner and then display the accounts by Address 1: State/Province for each owner. You begin to configure chart options as shown in the image below. How should you complete the configuration? To answer, select the appropriate options in the answer area.",,"Account
+CountAll
+
+
+Owner
+Address 1: State/Province","1,2,3,2",,,"A, B, C, B",,,,,
+21,"A user has access to an existing Common Data Service database.
+You need to ensure that the user can create canvas apps that consume data from Dataverse. You must not grant permissions that are not required.
+Which out-of-the-box security role should you assign to the user?","A. Environment Admin
+B. System Customizer
+C. Common Data Service User
+D. Environment Maker",D,d,,,D,,,,,
+22,"HOTSPOT -
+A company deploys several model-driven apps. The company uses shared devices in their warehouse. The devices are always powered on. Users log on to the devices and then launch the apps to perform actions.
+Unauthorized users recently uploaded several files after another user failed to log out of a device. The company needs to prevent these incidents from occurring in the future.
+You need to configure the solution to prevent the reported security incidents.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- Set time out …
+- Enter the restricted file types in the Power Platform Admin center","2,3",,,"B, C",,,,,
+23,"A company's sales staff wants a simplified way to manage their opportunities in Dynamics 365 Sales without adding custom code.
+You need to provide a solution for each requirement.
+Which solutions should you provide? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+",,"- Add a Kanban control
+- Add both controls to the My opportunities view
+- Use the List view","1,2,1",,,"A, B, A",,,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,
+24,"You administer the Microsoft 365 and Power Platform environments for Contoso, Ltd. The company has a model-driven app that is used to track customer interactions with employees. The app uses standard table types for customers. A user named Elisabeth Rice signs in to the app by using
+the following sign in name: Elisabeth.Rice@contoso.com.
+After marriage, Elisabeth changes her legal name to Elisabeth Mueller.
+You need to update the sign in name for the user without losing any application history.
+Solution: From Dynamics 365 Settings, select Email Configuration. In the active mailbox for the user, update the name.
+Does the solution meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,
+25,"You plan to implement Microsoft Dataverse.
+You must track changes for two columns in the Account table. You must maintain a historical log of changes for the two columns and track only
+what is necessary.
+You configure the appropriate organization settings.
+You need to configure the system to track changes for the two columns.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+","A. Enable auditing for the Account table.
+B. Enable auditing for the two specific columns.
+C. Enable change tracking for the Account table.
+D. Enable change tracking for the two specific columns.","A, B","a,b",,,"A, B",,,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,
+26,"On a Contact record, a user creates a Note record that contains the word running.
+One week later, the user reports that they cannot find the Contact record associated with the Note record.
+You need to find the Note record.
+Solution: Use Categorized Search to search for the word run.
+Does the solution meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,
+27,"On a Contact record, a user creates a Note record that contains the word running.
+One week later, the user reports that they cannot find the Contact record associated with the Note record.
+You need to find the Note record.
+Solution: Use Relevance Search to search for the word run.
+Does the solution meet the goal?","A. Yes
+B. No",A,a,,,A,,,,,
+28,"On a Contact record, a user creates a Note record that contains the word running.
+One week later, the user reports that they cannot find the Contact record associated with the Note record.
+You need to find the Note record.
+Solution: Use Quick Find search on the Notes list to search for the word run.
+Does the solution meet the goal?
+","A. Yes
+B. No",B,b,,,B,,,,,
+29,"DRAG DROP -
+You are implementing a model-driven app to support a new line of business.
+There are several places where automated business logic must be applied.
+You need to determine how to apply the business logic.
+Which method should you use? To answer, drag the appropriate methods to the appropriate business logic statements. Each method may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point
+
+
+
+",,"- Business rule
+- Real-time workflow
+- Power Automate instant flow","1,2,3",,,"A, B, C",,,,,
+30,"Your organization does not permit the use of custom code for solutions.
+You need to create a view that can be viewed by all users in an organization.
+Where should you create the view?
+","A. Advanced Find
+B. Entities component of a solution
+C. Microsoft Excel template
+D. Templates area",B,b,,,B,,,,,
+31,"HOTSPOT -
+You develop a Power Apps app.
+Users report that the main form does not display data from other entities or allow them to edit data from other entities.
+You need to embed information from other entities in the form and allow users to edit the data.
+Which actions should you perform? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- Add a sub-grid
+- Add a quick view",,,,"C, B",,,,,
+32,"HOTSPOT -
+A company uses a canvas app to manage production resources in a specific region. Employees must be at company locations to use the app.
+Due to a sudden requirement for employees to work remotely, employees no longer commute to a specific location to conduct their work and
+cannot access the canvas app.
+You must reconfigure the app to ensure that employees only access the app from a limited number of locations.
+You need to restrict access to the app.
+Which components should you configure? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- Azure Active Directory
+- Conditional Access Policy","3,2",,,"C, B",,,,,
+33,"You attempt to deactivate several currencies in a Microsoft Dataverse environment.
+You are not able to deactivate one of the currencies.
+You need to determine why you cannot deactivate the currency.
+What is the reason?","A. You are not the currency record owner.
+B. The currency is used by an active business process.
+C. The currency is the base currency.
+D. The currency is used by another record.",C,c,,,C,,,,,
+34,"A user has access to an existing Microsoft Dataverse database.
+You need to ensure that the user can create canvas apps that consume data from Dataverse. You must not grant permissions that are not
+required.
+Which out-of-the-box security role should you assign to the user?
+","A. Environment Admin
+B. Basic User
+C. Environment Maker
+D. System Customizer",C,c,,,C,,,,,
+35,"DRAG DROP -
+You are configuring Microsoft Dataverse security. You plan to assign users to teams.
+Record ownership and permissions will differ based on business requirements.
+You need to determine which team types meet the requirements.
+Which team type should you use? To answer, drag the appropriate team types to the correct requirements. Each team type may be used once,
+more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+
+",,"- Azure Active Directory group team
+- Access team","2,1",,,"B, A",,,,,
+36,"A company has locations in the United States, Brazil, India, and Japan. The company conducts financial transactions in all of these regions.
+Financial transactions in Brazil are going to stop, but the office will remain open.
+Users must no longer be able to create records associated with the Brazilian currency. Historical records must remain intact.
+You need to configure Microsoft Dataverse to meet the requirement
+What should you do?","A. Disable the Brazilian language pack.
+B. Rename the Brazilian currency.
+C. Delete the Brazilian currency record.
+D. Deactivate the Brazilian currency record",D,d,,,D,,,,,
+37,"HOTSPOT -
+You are setting up Power Apps security for a company. The company has a CEO, two vice presidents, and 10 managers. Five support
+representatives report to each manager.
+You set up Manager Hierarchy so managers are able to view data only for the representatives who report to them. The CEO must be able to view
+all data for everyone. All support representatives must be able to view customer information in each other's data across all managers.
+You need to resolve issues that arise during testing.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- Move the manager…
+- Add the CEO…
+- Add users to field security.","3,1,2",,,"3, 1, 2",,,,,
+38,"You are embedding a Power Apps visual in a Power BI dashboard.
+External customers must authenticate to have access to the dashboard.
+You need to configure the solution.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point","A. Set the Power BI service to authenticate users.
+B. Use a table in the Power BI dashboard.
+C. Publish to Power BI Report Server.
+D. Set the Power BI service to allow anonymous access.
+E. Share the Power Apps visual components with external users","A, E","a,e",,,"A, E",,,,,
+39,"Your organization does not permit the use of custom code for solutions.
+You need to create a view that can be viewed by all users in an organization.
+Where should you create the view?","A. Advanced Find
+B. Entities component of a solution
+C. Microsoft Excel template
+D. System Settings",B,,,,,,,,,
+40,"You are designing the organization structure for a company that has 5,000 users.
+You need to configure security roles for the company while minimizing administrative effort.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+
+
+
+'.
+
+
+
+
+
+
+
+
+
+",,"- Create a new ….
+- Grant the user a security role from the child business unit","3,1",,,"3, 1",,,,,
+41,"Your organization does not permit the use of custom code for solutions.
+You need to create a view that can be viewed by all users in an organization.
+Where should you create the view?","A. Microsoft Visual Studio
+B. Maker portal
+C. Advanced Find
+D. System Settings",B,c,,,B,,,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,
+42,"On a Contact record, a user creates a Note record that contains the word running.
+One week later, the user reports that they cannot find the Contact record associated with the Note record.
+You need to find the Note record.
+Solution: Use Dataverse Search to search for the word run.
+Does the solution meet the goal?","A. Yes
+B. No",A,a,,,A,,,,,
+43,"You are using the Data import wizard to import records into the account table from a CSV file.
+The CSV-to-table mapping is as follows:
+✑ The Name column represents the account name and maps to the Account Name column.
+✑ The Parent Name column represents the holding company of the account with subsidiaries underneath.
+Records that are imported into the table are only related to other records in the file.
+You need to configure the import to create the relationship between records.
+What should you do?
+","A. Map Parent Name in the CSV file to the Parent Account column. Select Account Name as the lookup criteria.
+B. Map Parent Name in the file to the Parent Account column. Select Parent Account as the lookup criteria.
+C. Create an alternate key on the account table by using the Account Name column. Do not map Parent Name in the file.
+D. Look up the record IDs of the records in the Parent Account column. Add the record IDs as a new column in the file. Map the new column to
+the Parent Account column",A,a,,,A,,,,,
+44,"A company has a sales application that is supported by an Azure SQL database. You are developing a Power Apps app for use by customer service agents.
+The app must reference customer data from the sales application. Data in the sales application is constantly changing and must not be replicated in Microsoft Dataverse.
+Some customer data is considered sensitive. You must protect data for specific fields when users view data in the app.
+You need to configure table creation for the app.
+How should you configure the app? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- Create a virtual table
+- Create a secured column","1,2",,,"1, 2",,,,,
+45,"HOTSPOT -
+A customer uses Power Apps to view and maintain their contacts that are stored in Microsoft Dataverse.
+Several columns must be configured to ensure the security settings for sales associates are view only.
+You need to configure the access restrictions.
+Which component for field-level security should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- PowerApps app designer
+- Field Security Profiles","3,3",,,"3, 3",,,,,
+46,"DRAG DROP -
+You modify a model-driven app for a bicycle repair help desk. The model-driven app is for help desk users when customers have an issue with
+their bicycle.
+After you add a custom table named bicycle, you configure the table for Microsoft Dataverse search. The table will contain information from
+callers about their bicycles. The account table is related to the custom table. Contact information is brought over to the custom table.
+You add the following columns to the table:
+✑ Bicycle type
+✑ Tire brand
+✑ Special equipment
+Users must be able to perform the following types of searches:
+✑ Search for all customers who have a bicycle type of Contoso and live in Florida.
+✑ Search all tables for any record that contains the word broken.
+You need to decide which type of search will give you the results desired.
+Which search should you configure? To answer, drag the appropriate search types to the correct requirements. Each search type may be used
+once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Advanced Find
+- Dataverse search","3,1",,,"3, 1",,,,,
+47,"You create an app to manage customer service cases.
+Cases entered in forms require different types of data to be stored in different types of columns.
+You need to create forms for each of the following case types:
+
+
+
+
+
+
+
+
+
+
+Which form types should you create? To answer, drag the appropriate form types to the meet the data entry requirements. Each source may be
+used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Main
+- Main
+- Card
+- Quick create
+- Quick view","2,2,4,1,3",,,"2, 2, 4, 1, 3",,,,,
+48,"DRAG DROP -
+You are a Dynamics 365 Customer Service developer.
+A salesperson creates a chart.
+You need to ensure that the chart is available to all users on the team.
+Which actions should the salesperson perform? To answer, drag the appropriate actions to the correct users. Each action may be used once, more
+than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point",,"- Export the user chat for import as user chart
+- Share the chart with the team","4,1",,,"4, 1",,,,,
+49,"HOTSPOT -
+You implement an editable grid for the Account entity.
+The business team provides the following list of features that they would like you to implement:
+✑ Group by or sort columns in the current view.
+✑ Configure a business rule to show an error message.
+✑ Edit values in calculated fields.
+✑ Edit the Address composite field.
+✑ Use the editable grid on mobile phones.
+Which actions can you perform? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"Yes
+Yes
+No
+No
+No","1,1,2,2,2",,,"Yes, Yes, No, No, No",,,,,
+50,"DRAG DROP -
+You must create a form for team members to use. The form must provide the ability to:
+✑ Lock a field on a form.
+✑ Trigger business logic based on a field value.
+✑ Use existing business information to enhance data entry.
+You need to implement business rule components to create the form.
+Which components should you use? To answer, drag the appropriate components to the correct requirements. Each component may be used once,
+more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point",,"- Action
+- Conditions
+- Recommendation","1,2,3",,,"1, 2, 3",,,,,
+51,"You have a form that displays a custom field from an entity.
+A customer wants to restrict users from filtering on the custom field.
+You need to prevent users from filtering the field in Advanced Find.
+What should you modify?","A. Fields in the Edit Filter Criteria option of the Quick Find view
+B. a searchable field on the Field Properties form
+C. Fields in the Add Find Columns option of the Quick Find view",B,b,,,B,,,,,
+52,"HOTSPOT -
+You are designing a canvas app that connects to Common Data Service.
+You need to configure the app to meet the requirements and ensure that the canvas app is available offline.
+What should you implement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+",,"- Navigate
+- LoadData","1,1",,,"1, 1",,,,,
+53,"You have a canvas app that allows users to view, select, and purchase products. The app uses a Gallery control to display products and
+checkboxes that allow users to select products.
+When users select items from the product catalog, they move to a different screen to complete a purchase.
+Users must be able to clear all product selections when they click the button.
+You need to configure the button.
+What should you do?","A. Use the Reset(Control) formula and pass the gallery control as a parameter to the Reset formula.
+B. Use the Reload(Control) formula and pass the gallery control as a parameter to the Reload formula.
+C. Use the ForAll() function to iterate through each item of the Gallery and clear user selections.
+D. Set the OnCheck value to populate a collection and the OnUncheck value to remove the item from the collection. Clear collection when the
+user selects the button.",D,d,,,D,,,,,
+54,"HOTSPOT -
+You have a canvas app that contains the following text input fields: Id, FirstName, LastName. The app also has a button named Button1.
+The OnSelect property for Button1 contains the following expression:
+Collect(People, {Id:Id.Text, FirstName:FirstName.Text, LastName:LastName.Text})
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.",,"Yes
+No
+No","yes, no, no",,,"Yes, No, No",,,,,
+55,"HOTSPOT -
+You are a Dynamics 365 Customer Service administrator.
+A user must be able to view system posts and activities in a dashboard.
+You need to create the dashboard for the user.
+Which components should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+",,"- Timeline
+- List","1,1",,,"1, 1",,,,,
+56,"Your organization does not permit the use of custom code for solutions.
+You need to create a view that can be viewed by all users in an organization.
+Where should you create the view?","A. Entities component of a solution
+B. Microsoft Excel template
+C. Microsoft Visual Studio
+D. List view of the entity",A,a,,,A,,,,,
+57,"A company is implementing Power Apps and Power Automate.
+Several components are created within Power Apps, Microsoft Dataverse, and Power Automate. These components must be promoted from the development environment to the user acceptance test environment in a single solution package.
+You need to create the solution package for promotion.
+Where should you create the package?","A. Azure DevOps
+B. Power Apps designer
+C. Microsoft Power Platform admin center
+D. Azure portal
+E. Office 365 admin center",C,c,,,C,,,,,
+58,"A company is creating a Power Apps solution for a production facility.
+The current solution is in English. The customized components must be translated into several languages.
+You need to extract the text for translation.
+In which location can you achieve this goal?","A. The tables in the web application.
+B. The selected environment in the Microsoft Power Platform admin center.
+C. The solution in the web application.
+D. The individual solution components in the web application",C,c,,,C,,,,,
+59,"You have a canvas app that allows users to view, select, and purchase products. The app uses a Gallery control to display products and
+checkboxes that allow users to select products.
+When users select items from the product catalog, they move to a different screen to complete a purchase.
+Users must be able to clear all product selections when they click the button.
+You need to configure the button.
+What should you do?","A. Use the Reload(Control) formula and pass the gallery control as parameter to the Reload formula.
+B. Use the Reset(control) formula and pass the checkbox to the formula to clear user selections.
+C. Set the OnCheck value to populate a collection and the OnUncheck value to remove the item from the collection. Clear the collection when
+the user selects the button.
+D. Use the Revert(Products) formula and pass the checkbox to the formula to clear user selections.
+E. Use the Reset(Control) formula and pass the gallery control as a parameter to the Reset formula.
+",C,c,,,C,,,,,
+60,"A customer tracks events by using a custom entity.
+The custom entity includes a custom field for the venue of the events. The customer must be able to display the events by venue in a calendar.
+You need to ensure that all events display by venue in the calendar.
+To which component should you add a control?","A. Form
+B. Subgrid
+C. Chart
+D. View",D,d,,,D,,,,,
+61,"You are creating a canvas app.
+A user will click a button on each screen of a Power Apps app to proceed to the next screen.
+You need to implement the action which selects the next screen that the user sees.
+Which event should you handle?","A. ScreenTransition
+B. OnSelect
+C. OnLoad
+D. OnCheck",B,b,,,B,,,,,
+62,"HOTSPOT -
+A company has a canvas app that includes the following screens: Screen1 and Screen2.
+The OnVisible property for Screen1 contains the following expression.
+Set(AgeGroups, [""1-25"", ""26-54"", ""55+""])
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.",,"Yes, No, No","yes, no, no",,,"Yes, No, No",,,,,
+63,"You are a Dynamics 365 Customer Service developer.
+A salesperson creates a chart.
+You need to ensure that the chart is available to all users on the team.
+What should you do?","A. Share the chart with the team.
+B. Assign the chart to each person on the team.
+C. Export the user chart to Power BI. Import the chart as a Power BI visualization.
+D. Export the user chart for import as a user chart.",A,a,,,A,,,,,
+64,"DRAG DROP -
+You create an app.
+You need to create the site map for the app.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.",,"- Add an area
+- Add a group
+- Add a subarea","3,2,4",,,"3, 2, 4",,,,,
+65,"Your organization does not permit the use of custom code for solutions.
+You need to create a view that can be viewed by all users in an organization.
+Where should you create the view?","A. Advanced Find
+B. Entities component of a solution
+C. Microsoft Virtual Studio
+D. Templates area",B,b,,,B,,,,,
+66,"You are configuring a new Power Apps portal. You have two web roles, one for authenticated users and one for anonymous users. You grant the Anonymous Users role to users.
+A test user reports that they can access the home page but cannot view a page linked from the home page.
+You need to determine why the test user cannot view the portal page.
+What is the cause of the issue?","A. The setting to make the page available to everyone is disabled.
+B. Inherited permissions are not enabled for the linked page.
+C. The Authenticated Users Web role does not have permission to view the page.
+D. Maintenance mode is enabled on the portal.",B,b,,,B,,,,,
+67,"HOTSPOT -
+A company is configuring a Power Apps portal using Microsoft Dataverse.
+The company requires the following:
+✑ Only authenticated users must be able to sign into the portal.
+✑ Authenticated users must have varying degrees of access to the different parts of the portal.
+✑ Users must enter one of several external identities when creating an account during the open registration process.
+You need to configure user authentication and permissions.
+Which component should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+",,"- Contact table record
+- Web roles","1,4",,,"1, 4",,,,,
+68,"DRAG DROP -
+You create a new solution for a business process.
+The business process includes uploading specific file types to a web service.
+You need to ensure that the business process works the same way anywhere the solution is deployed.
+Which option should you use? To answer, drag the appropriate options to the correct configurations. Each option may be used once, more than
+once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Solution system settings
+- Environment variable","3,2",,,"3, 2",,,,,
+69,"A company collaborates by using Microsoft Teams.
+You must create a Power Apps app directly from within a Teams channel. The app will be used by members of the channel to manage sales orders.
+You need to create the app by using Dataverse for Teams.
+How should you create the app?","A. Create a canvas app by using a Power Apps personal app in Teams.
+B. Create a canvas app by using the App Studio app.
+C. Use the Power Apps web designer.
+D. Create a model-driven app by using the App Studio app.",A,a,,,A,,,,,
+70,"DRAG DROP -
+A company has a portal. Users sign into the portal by using a social media account.
+The company wants to replace the existing portal with a Power Apps portal. Users must sign up for access to the portal by using a Microsoft account and a unique invitation code that will be provided to the users.
+You need to configure authentication for the home page.
+Which values should you use? To answer, drag the appropriate values to the appropriate authentication settings. Each value may be used once,
+more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"Yes
+No","yes, no",,,"Yes, No",,,,,
+71,"DRAG DROP -
+You are customizing a model-driven app for a company. You create a Theme template to ensure the company logo and colors are properly used
+within these apps.
+The theme must meet the following requirements:
+✑ Updated to add the logo
+✑ Downloaded by the makers to create the app
+You need to configure the assets. To answer, drag the appropriate configurations to the correct requirements. Each configuration may be used
+once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Upload the theme …
+- Replace an existing …","3,2",,,"3, 2",,,,,
+72,"A user needs to create a Power Apps portal app.
+The user is getting a permission denied error when creating the portal app.
+You need to configure permissions to create the portal app.
+Which three permissions should you configure? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point","A. In the Power Platform admin center, ensure that the user account has read-write access.
+B. In Azure Active Directory, assign the Contributor role to the application at the subscription scope.
+C. In Azure Active Directory, ensure that the user has permission to register an app.
+D. In the Power Platform admin center, change the portal app owner to the user.
+E. In the Power Platform admin center, ensure that the user has the System administrator security role.","A, C, E","a,c,e",,,"A, C, E",,,,,
+73,"HOTSPOT -
+You have a Power Apps portal app that supports a sales community and a service community in the same environment. The only language
+configured in the environment is English. The company wants to add support for two more languages.
+The solution must meet the following requirements:
+✑ Languages must be for both sales and service functions.
+✑ The company logo and colors must be used and apply to all screens.
+✑ Communities must be separate with different URLs and access lists.
+You need to configure the solution.
+What should you configure? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"- Create two portals …
+- Add themes","1,1",,,"1, 1",,,,,
+74,"DRAG DROP -
+A company is creating a canvas app and a model-driven app to manage their customer accounts.
+The canvas app requires a business rule to set the Business Type column to large if the customer size is greater than a specific currency value.
+The model-driven app requires a business rule to recommend the account rating be re-evaluated when the account goes on credit hold for this app only.
+You need to configure the scope for the business rules.
+Which scope should you use? To answer, drag the appropriate scopes to the correct business rules. Each scope may be used once, more than once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Table
+- Specific form","3,2",,,"3, 2",,,,,
+75,"You plan to create user interface (UI) flows to automate several web-based business processes that you currently perform manually.
+You need to ensure that users can create and run web UI flows.
+Which three components must you install and configure on user's devices? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.","A. Power Automate Desktop
+B. Latest version of Microsoft Edge
+C. On-premises data gateway
+D. Selenium IDE
+E. Latest version of Mozilla Firefox","A, B, C","a,b,c",,,"A, B, C",,,,,
+76,"DRAG DROP -
+You are designing a desktop user interface (UI) flow.
+The UI flow automates legacy software.
+You need to prepare data for transfer to Microsoft SharePoint list.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.
+
+
+
+",,"1. Start recording the Ul flow.
+2. On the Outputs menu of the Ul flow, choose Select text on screen.
+3. Enter a name and description for the output.
+4. Stop the recording and save the flow","5,3,4,6",,,"5, 3, 4, 6",,"1. Start recording the Ul flow.
+2. On the Outputs menu of the Ul flow, choose Select text on screen.
+3. Enter a name and description for the output.
+4. Stop the recording and save the flow",,,,
+77,"DRAG DROP -
+You have a business process flow.
+You need to update the business process flow while minimizing administrative and maintenance efforts.
+What should you implement? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than
+once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Action step
+- Action step","1,1",,,"1, 1",,,,,,
+78,"You are creating a new business process flow to qualify leads.
+You create an action. The action is not available inside the Action Step.
+You need to make the action available to the Action Step.
+Which two steps must you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.","A. Ensure that the entity for the action matches the corresponding entity for the business process flow stage.
+B. Add at least one step to the action.
+C. Select Run as an on-demand process.
+D. Activate the action.","A, D",c,,,"A, D",,,,,,
+79,"DRAG DROP -
+You plan to automate several different processes by using Power Automate.
+Each process has unique characteristics.
+You need to recommend components for each process.
+Which components should you recommend? To answer, drag the appropriate components to the correct processes. Each component may be used
+once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+
+",,"- Flow that uses a custom ..
+- Unattended UI Flow","3,2",,,"3, 2",,,,,,
+80,"HOTSPOT -
+You create workflows to automate business processes.
+You need to create a workflow that automatically sends emails based on a mail merge template. The workflow must contain the following
+configurations:
+✑ Run immediately.
+✑ Validate when a condition is met.
+✑ Perform an action when a condition is met.
+To answer, select the appropriate configuration in the answer area.
+NOTE: Each correct selection is worth one point",,"2, 2, 1","2,2,1",,,"2, 2, 1",,,,,,
+81,"You are developing a canvas app.
+You need to apply business rules to the app without writing code.
+Which three actions can you use? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.","A. Validate data and show error messages.
+B. Enable or disable fields.
+C. Set field requirement levels.
+D. Set field values.
+E. Show or hide fields","A, C, D","a,c,d",,,"A, C, D",,,,,,
+82,"HOTSPOT -
+A company plans to use Power Automate to increase employee efficiency.
+You need to recommend the types of flows that the company should use.
+Which flow type should you recommend? To answer, drag the appropriate flow types to the correct tasks. Each flow type may be used once, more
+than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"1, 2","1,2",,,"1, 2",,,,,,
+83,"DRAG DROP -
+A company is creating a business process flow in Power Automate to analyze the probability that a customer will buy a specific product.
+The company uses ratings from zero to one hundred. The company assigns likelihoods based on the following table:
+
+
+
+
+
+
+
+
+
+You need to define the business process steps. All logic must be included in a single evaluation statement.
+Which step should you use? To answer, drag the appropriate steps to the correct ratings. Each step may be used once, more than once, or not at
+all. You may need to drag the split bar between panes or scroll to view content.",,"- Default
+- Conditional branch
+- Conditional branch","4,2,2",,,"4, 2, 2",,,,,,
+84,"HOTSPOT -
+You are creating a Power Platform solution.
+You need to help end users understand which actions to take next and ensure that user interaction occurs in manageable steps.
+Which actions should you perform? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+",,"2, 2",,,,"2, 2",,,,,,
+85,"DRAG DROP -
+You are developing an app.
+You must trigger a mobile notification whenever a specific hashtag is posted from Twitter. The notification will send email to the company's socialmedia teams distribution list.
+You need to create a connection to the Twitter service and build a solution.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.
+
+
+
+
+
+
+",,"- Sign in to Power Atomate…
+- Select the Twitter connector and use the user credentials..
+- Create a trigger to search…
+- Create an action to send an email","8, 2, 7, 6",,,"8, 2, 7, 6",,,,,,
+86,"You manage Microsoft Power Platform apps for a company.
+You need to hide the Flows button on the user interface.
+Which configuration setting should you change?","A. the SiteMap
+B. the Customizations section of System Settings
+C. the Entity component of the default solution
+D. the Buttons tab of Flow
+",B,b,,,B,,,,,,
+87,"You configure and test a user interface (UI) flow. You plan to run the flow as a scheduled flow.
+The UI flow must run on a Windows 10 device. As part of process automation, the UI flow must sign into the Windows 10 device with the
+credentials for a user account named User1.
+You need to ensure that the flow runs during non-peak hours and requires no physical user intervention.
+What should you do?","A. Ensure that the User1 account has an active user session on the device.
+B. Ensure that all user sessions are signed out.
+C. Ensure that there are no active user sessions on the device.
+D. Ensure that all user sessions are signed out except for locked user sessions.",B,b,,,B,,,,,,
+88,"A company plans to send escalation emails to all customers with overdue invoices. You are creating a Microsoft Power Automate flow to
+determine whether to send an escalation email.
+The system must send an alert for all invoices that are seven days or more overdue.
+You need to configure the flow.
+Which expression should you use?","A. @GreaterOrEquals(TriggerEmail()?['OverdueDate']: '7')
+B. 'OverdueDate' >= '7'?'TriggerEmail()': false
+C. TriggerEmail() = 'OverdueDate' >= 7;
+",A,a,,,A,,,,,,
+89,"You add a business process flow to the Account table. The flow has three stages.
+You need to ensure that a workflow can run when a user completes the final stage.
+Which option should you use?
+","A. Start when: Record status changes
+B. Available to run: Run this workflow in the background
+C. Available to run: As an on-demand process
+D. Available to run: As a child process
+",C,c,,,C,,,,,,
+90,"You need to create a Power Automate desktop flow.
+What are two possible ways to create the flow? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+","A. Record mouse and keyboard events.
+B. Configure a pre-built template.
+C. Use pre-built actions.
+D. Create models by using Microsoft Visio.
+","A, C","a,c",,,"A, C",,,,,,
+91,"HOTSPOT -
+You are using Power Automate to create a list of customers from a Microsoft Excel file.
+The list must contain customers who meet one of the following criteria:
+✑ Sales of less than $500,000.
+✑ Customers who are on credit hold.
+You need to create a condition to filter the list of customers.
+How should you complete the filter condition? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+",,"- or
+- equals","1,2",,,,,,,,,
+92,"A farm uses a canvas app to manage schedules for planting fields with crop seeds. The farm uses business intelligence to provide
+recommendations for schedule changes based on weather data.
+You must implement a business rule that changes information for several forms in the canvas app based on business intelligence data.
+You need to configure the business rule.
+Which scope should you use?","A. Table
+B. All Forms
+C. Form specific",A,a,,,A,,,,,,
+93,"HOTSPOT -
+A company uses Power Apps and Power Automate.
+There is an issue with the existing flow in the test environment. Development changes are allowed in the test environment.
+You need to troubleshoot the issue with the flow.
+Which command should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+",,"- Turn off
+- Edit
+","4,1",,,"4, 1",,,,,,
+94,"You plan on implementing complex business logic in Microsoft Dataverse tables by using Power Automate flows.
+You realize that the functionality required to implement the business logic is not available in a Power Automate flow.
+The new business logic must work in multiple Dataverse tables. In addition, the operation must return a value after it finishes and must be able to run from an existing Dataverse action.
+You need to recommend the method to implement the missing logic.
+What should you recommend?","A. Bound action
+B. Custom API
+C. Unbound action
+D. Scheduled workflow
+",- Unbound action,c,,,C,,,,,,
+95,"DRAG DROP -
+A company plans to automate the following manual processes by using Power Automate
+
+
+
+
+
+
+
+You need to identify UI flow types for the two business processes.
+Which desktop flow type should you use? To answer, drag the appropriate desktop flow types to the correct business processes. Each desktop flow type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+",,"- Attended
+- Unattended","1,2",,,"1, 2",,,,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,,
+96,"You are creating Power Virtual Agents chatbot that captures demographic information about customers.
+The chatbot must determine the group a customer belongs to based on their age. The age groups are:
+✑ 0 - 17
+✑ 18 - 25
+✑ 26 - 35
+✑ 36 - 55
+✑ 55 - 100
+You need to configure the chatbot to ask a question that can be used to determine the correct age group.
+Solution: Use age for Identify in the question and then add branches for each group that use conditional logic.
+Does the solution meet the goal?
+","A. Yes
+B. No",B,b,,,B,,,,,,
+97,"You are designing a Power Virtual Agents chatbot.
+The chatbot must be able to maintain customer information if the conversation topic changes during a dialog.
+You need to configure variables to store customer name and email address.
+Which type of variable should you create?","A. session
+B. slot
+C. bot
+D. topic",- Bot,c,,,C,,,,,,
+98,"HOTSPOT -
+You are designing a Power Virtual Agents chatbot for a store.
+You need to teach the chatbot to acknowledge the store's product categories and the variations within specific categories.
+You need to create custom entities to provide the chatbot with the knowledge of the product categories.
+Which features should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+
+",,"- Smart matching
+- Synonyms
+- Slot filling","3,2,1",,,"3, 2, 1",,,,,,
+99,"DRAG DROP -
+A customer has a support website that includes FAQ pages, knowledge articles, and support content.
+You plan to leverage an existing Power Virtual Agents bot to enhance and streamline existing support functionality for the existing support portal.
+You need to create topics from existing website content. The process must minimize human errors during topic creation.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.
+",,"- Capture suggested …
+- Add selected topics
+- Enable the topics","1,4,5",,,"1, 4, 5",,,,,,
+100,"You are creating a Power Virtual Agents chatbot that uses multiple topics.
+Each user interaction can reference more than one topic.
+You need to be able to capture a value in an initial topic and use it in subsequent topics.
+Which type of variable should you create?","A. Context
+B. Bot
+C. Topic",B,b,,,B,,,,,,
+101,"A company has a custom website.
+You need to embed a Power Virtual Agents chatbot into the website.
+What should you use?","A. Webpage URL
+B. Form ID
+C. Bot ID
+D. Custom web channel
+",D,d,,,D,,,,,,
+102,"A company is developing several Power Virtual Agents chatbots. The company manufactures more than 1,000 different products.
+The chatbots must prompt users to enter or select a product.
+You need to store the product information so that it can be reused across all chatbots.
+Where should you store the model data?","A. Global variables
+B. Custom entities
+C. Topics
+D. Multiple choice options",B,b,,,B,,,,,,
+103,"DRAG DROP -
+A company creates a Power Virtual Agents chatbot.
+You need to determine when live agents are engaged to provide support.
+Which metrics should you use? To answer, drag the appropriate metrics to the correct processes. Each metric may be used once, more than once,
+or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+
+",,"- Escalation rate drivers
+- Session outcomes over time","3,2",,,"3, 2",,,,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,,
+104,"You are creating Power Virtual Agents chatbot that captures demographic information about customers.
+The chatbot must determine the group a customer belongs to based on their age. The age groups are:
+✑ 0 - 17
+✑ 18 - 25
+✑ 26 - 35
+✑ 36 - 55
+✑ 55 - 100
+You need to configure the chatbot to ask a question that can be used to determine the correct age group.
+Solution: Use Date and time for Identify in the question and then add branches that use conditional logic to determine the age group.
+Does the solution meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,,
+105,"You are creating Power Virtual Agents chatbot that captures demographic information about customers.
+The chatbot must determine the group a customer belongs to based on their age. The age groups are:
+✑ 0 - 17
+✑ 18 - 25
+✑ 26 - 35
+✑ 36 - 55
+✑ 55 - 100
+You need to configure the chatbot to ask a question that can be used to determine the correct age group.
+Solution: Create a custom Age group entity and synonyms for each individual age in the corresponding item. Use Age group for Identify in the
+question.
+Does the solution meet the goal?
+","A. Yes
+B. No",A,a,,,A,,,,,,
+106,"HOTSPOT -
+You create a new Power Virtual Agents chatbot for an organization.
+Testing and production deployment of the chatbot are not complete.
+You need to ensure that appropriate users can access the chatbot.
+Which methods should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+",,"1, 1, 1","1,1,1",,,"1, 1, 1",,,,,,
+107,"DRAG DROP -
+You are designing a chatbot for a sports outlet.
+You need to complete the chatbot.
+Which features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than
+once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Entities
+- Topics
+- Variables","2,1,3",,,"2, 1, 3",,,,,,
+108,"A company has marketing teams for different regions.
+A user creates and publishes a chatbot within Microsoft Teams for their specific marketing team.
+The base metrics retrieved by the chatbot are relevant to all marketing teams.
+The other marketing teams request access to the chatbot.
+You need to publish the chatbot to the entire company.
+What should you do?","A. Configure the chatbot to be used with the Teams channel.
+B. Submit the chatbot for admin approval.
+C. Copy the published chatbot link and email it to the other teams.
+D. Invite the other teams to the team that has the chatbot.
+E. Export the chatbot and import it into a corporate environment.
+",B,b,,,B,,,,,,
+109,"You create a Power Virtual Agents chatbot to reduce the number of incoming support calls that require a live person.
+The chatbot does not direct users to the correct information. You determine that this is because the chatbot is not able to identify which product a user is referring to in a conversation.
+You need to present a list of products so that users can select the correct product.
+What should you create?
+","A. Table
+B. Variable
+C. Slot filling
+D. Entity",- Slot filling,c,,,C,,,,,,
+110,"You are creating a Power Virtual Agents chatbot for a Microsoft Power Platform power apps portal app.
+The job title of users must be stored automatically when users log in. The job title must always appear in the chatbot.
+You need to configure the job title functionality.
+Which mechanism should you use?","A. artificial intelligence
+B. variable
+C. entity
+D. topic
+",B,b,,,B,,,,,,
+111,"You are designing a Power Virtual Agents chatbot.
+The environment you plan to use does not appear as an option in the Power Virtual Agents user interface.
+You need to ensure that you can create the chatbot in the environment.
+What should you do?","A. Change the region for the environment.
+B. Convert the environment to a sandbox environment.
+C. Create an environment in a supported region.",C,c,,,C,,,,,,
+112,"You are a Dynamics Sales administrator for a car dealership. The dealership uses only out-of-the-box functionality. When a new car is sold, the salesperson uses a Word template to generate a letter from the quote to thank the customer.
+You need to determine if you can revise the template.
+Which Word template change can you make?","A. Add the Discount field conditionally.
+B. Format the table to have alternating color rows.
+C. Format the Created On field to a long date format.
+D. Add the address of the customer",D,d,,,D,,,,,,
+113,"You manage the Dynamics 365 Customer Service environment for an organization.
+Microsoft SharePoint will not be deployed in the environment for a year.
+You need to integrate Microsoft Office 365 solutions with the Dynamics 365 instance to help the sales team with internal collaboration efforts.
+Which three solutions can you currently implement? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point","A. Microsoft Skype for Business
+B. Microsoft Exchange Online
+C. Microsoft OneNote
+D. Microsoft Yammer
+E. Microsoft OneDrive for Business","A, B, D","a,b,d",,,"A, B, D",,,,,,
+114,"HOTSPOT -
+A company plans to implement AI Builder to add intelligence to several business processes.
+Each business process uses different sources and produces different outputs.
+You need to determine which AI Builder model types to use.
+Which model types should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"1, 1","1,1",,,"1, 1",,,,,,
+115,"You create and publish a Power BI report that contains an embedded canvas app. The report will be used by multiple people.
+The canvas app has an issue that must be corrected.
+You update the canvas app.
+You need to ensure that the updated canvas app is available in the published Power BI report.
+What should you do?
+","A. Manually refresh the data source on the published Power BI report
+B. Publish the canvas app
+C. Publish the Power BI report from Power BI Desktop and reshare to any users
+D. Publish the Power BI report from Power BI Desktop",B,b,,,B,,,,,,
+116,"DRAG DROP -
+You create a report by using Power BI Desktop and publish the report to the Power BI service. You enable Power BI visualization embedding in a
+model-driven app.
+You need to configure the model-driven app to display a Power BI tile.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.
+
+
+
+
+",,"- Pin …
+- Create...
+- Add...","1,2,4",,,"1, 2, 4",,,,,,
+117,"You use Power BI Desktop to configure Power BI reports.
+You need to create a canvas app that displays user account information and include the app in a Power BI report.
+Which three actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.","A. From the Power Apps Insert menu, add a Power BI tile
+B. From the Power BI Desktop menu, insert a Power Apps visual and include the required fields in the Power Apps data
+C. Publish the report to the Power BI service
+D. Connect to Common Data Service from Power BI Desktop
+","B, C, D","b,c,d",,,"B, C, D",,,,,,
+118,"DRAG DROP -
+A company uses Microsoft Dataverse to store sales data.
+For the past few quarters, the company has experienced a decrease in sales revenue. The company wants to improve sales forecasting.
+The company plans to use AI Builder to implement the solution. You select fields that will be used for prediction.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.
+
+
+
+
+
+",,"- Train the prediction…
+- Publish …
+- Use the model ..","7,4,5",,,"7, 4, 5",,,,,,
+,"Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.",,,,,,,,,,,,
+119,"The sales team at a software company wants to attach a large number of supporting documents to customer records, but management does not
+want to incur the cost of additional storage.
+The company does not have any Office 365 application integrations enabled.
+You need to recommend a storage solution that keeps storage costs low.
+Solution: Enable Outlook integration.
+Does the solution meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,,
+120,"The sales team at a software company wants to attach a large number of supporting documents to customer records, but management does not
+want to incur the cost of additional storage.
+The company does not have any Office 365 application integrations enabled.
+You need to recommend a storage solution that keeps storage costs low.
+Solution: Enable server-based SharePoint integration.
+Does this meet the goal?","A. Yes
+B. No",A,a,,,A,,,,,,
+121,"The sales team at a software company wants to attach a large number of supporting documents to customer records, but management does not
+want to incur the cost of additional storage.
+The company does not have any Office 365 application integrations enabled.
+You need to recommend a storage solution that keeps storage costs low.
+Solution: Enable OneNote integration/Onedrive for Business
+Does this meet the goal?","A. Yes
+B. No",B,b,,,B,,,,,,
+122,"HOTSPOT -
+You have a business process flow (BPF) that interacts with the Account entity.
+You modify the BPF and add a new stage at the beginning.
+You need to identify the impact of the new version on the existing account records.
+What is the outcome in each scenario? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.", ,"2, 3","2,3",,,"2, 3",,,,,,
+123,"DRAG DROP -
+You are examining several processes to determine if you can automate the processes by using Power Automate.
+The processes must run without human intervention when possible.
+You need to determine which flow type should be used for each process.
+Which flow type should you use? To answer, drag the appropriate processes to the correct flow types. Each process may be used once, more than
+once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.",,"- Attended …
+- Unattended …","2,3",,,"2, 3",,,,,,
+124,"A company uses Microsoft Teams. You plan to create a Power Apps app for Microsoft Teams.
+You need to determine the environment that will used by the app.
+Which environment will the app use?","A. An existing Dataverse environment that you select.
+B. An existing Dataverse for Teams environment that you select.
+C. A Dataverse environment that is automatically created for the team.
+D. A Dataverse for Teams environment that is automatically created for the team.",D,d,,,D,,,,,,
+125,"You create a canvas app for a sales team. The app has an embedded Power BI tile that shows year-to-date sales. Sales users do not have access to the data source that the tile uses.
+Sales team users must be able to see data in the Power BI tile. You must minimize the level of permissions that you grant and minimize administrative overhead.
+You need to share another Power BI component to make the data visible.
+What should you share?","A. The Power BI dataset the tile uses as a data source.
+B. The Power BI workspace that includes the tile.
+C. The Power BI dashboard that includes the tile.",C,c,,,C,,,,,,
+126,"HOTSPOT -
+You have a model-driven app. You create five Microsoft Excel templates for analyzing customer data.
+Four of the templates must be available to all users. The remaining template must be available only to you. You configure the appropriate security
+roles for users.
+You need to determine how to upload the Excel templates.
+Which method should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"1, 2","1,2",,,"1, 2",,,,,,
+127,"You configure an alert in Power BI.
+You need to alert users when the value of a tile exceeds a threshold. To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+",,"1, 1","1,1",,,"1, 1",,,,,,
+128,"You are using Power BI to build a dashboard for a company.
+You must make the dashboard available to a specific set of users, including employees and five external users. The number of employees that require access to the dashboard varies, but is usually less than 100.
+Employees and external users must not be permitted to share the dashboard with other users.
+You need to share the dashboard with the employees and external users.
+Which three actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point","A. Create a dynamic distribution list. Add all users to the distribution list and use the list to share the dashboard.
+B. Sign into the Power BI service. Open the dashboard and select Share.
+C. Enter the individual email address of internal and external users.
+D. Sign into Power BI Desktop. Open the dashboard and select Share.
+E. Clear the Allow recipients to share your dashboard (or report) option.
+F. Create a distribution list. Add all users to the distribution list and use the list to share the dashboard.","- Sign in to the Power BI service…
+- Enter …
+- Clear …","b,c,e",,,"B, C, E",,,,,,
+129,"You create a report by using Power BI Desktop and a Power BI dataset that is connected to Azure SQL Database.
+Multiple groups of employees will use the report.
+You need to ensure that each group of employees can see only data that pertains to their group.
+What should you do?","A. Create and assign field security profiles.
+B. Create and assign Common Data Service security roles.
+C. Create and assign roles by using row-level security.
+",C,c,,,C,,,,,,
+130,"HOTSPOT -
+A company uses Microsoft Dataverse manage account and contact information.
+The company plans to use the AI Builder model to make key business decisions.
+You need to integrate prebuilt AI Builder models with Power Automate flows.
+Which models should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+",,"1, 1","1,1",,,"1, 1",,,,,,
+131,"The sales manager receives a list of leads from a partner company monthly. The field names that are provided do not match the fields in Microsoft Dataverse tables. A data map does not exist.
+You need to import the leads without changing the data from the partner company.
+What should you do?","A. Create a data map on the first import by using the Import Data wizard.
+B. Add a template for Import Data.
+C. Use Import Field Translations.
+D. Create a data map in Data Management.",A,a,,,A,,,,,,
+132,"You are creating Power BI reports for a company.
+A company that has a model-driven app wants to use Power BI reports within the app. You create the reports.
+You need to ensure that these reports are available within the app.
+Which two actions should you perform? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.","A. Share the Power BI report to all users.
+B. Add the Power BI report to the Site Map dashboards.
+C. Create a PCF file.
+D. Use the native reports in model-driven apps.
+E. Add the Power BI report to a dashboard in the model-driven app.","B, E","b,e",,,"B, E",,,,,,
+133,"A company is training an Al model using a custom table to determine the amount of time it takes to deliver a package based on several key fields.
+The testing data used to train the model is used for all training and regression testing scenarios and is considered complete data.
+The trained model predicts a 2 percent variance between the estimated delivery time and the actual delivery time of packages.
+The executive sponsors reject the model because the actual variance is at 15 percent.
+You need to address the sponsors' concern.
+What should you do?","A. Replace the training data with real-world data.
+B. Reduce the size of the data used within the model.
+C. Increase the size of the data used with the model.
+D. Use sample training data from Microsoft.",D,d,,,D,,,,,,
+134,"A bank uses Power BI visualizations to help determine whether they should loan money to a customer. The bank has three different visuals that
+are part of a
+Power BI report. The bank uses a set of four risk variables that indicate whether the customer is creditworthy.
+You must create a mechanism so that bank employees can change the values of the four risk variables. Changes to the value of any variable must
+cause the three visualizations to update.
+You need to create the solution.
+Which action should you perform? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point",,"2, 3","2,3",,,"2, 3",,,,,,
+135,"You create a JavaScript web resource named MyBusinessLogic. The code it contains uses functionality from a third-party JavaScript library.
+You notice that an independent software vendor (ISV) solution uses the same third-party library in their managed solution.
+You plan to deploy your solution to other environments by using a managed solution. The ISV solution might not be installed in the other
+environments.
+You need to package the solution for deployment
+What are two ways to achieve this goal? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.","A. Create a new JavaScript web resource by using the code from the third-party library. Add the new JavaScript web resource along with MyBusinessLogic to the solution.
+B. Add a copy of the JavaScript library from the ISV to the solution along with MyBusinessLogic.
+C. Add the code from the third-party JavaScript library to MyBusinessLogic. Add MyBusinessLogic to the solution.
+D. Add only the third-party JavaScript web resource to the solution.","A, C","a,c",,,"A, C",,,,,,
+136,"HOTSPOT -
+You create a Power Platform help Desk solution.
+You need to create a dashboard that displays information on help desk cases that are handled each week.
+Which dashboard components should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+
+
+
+",,"- System
+- Personal
+- Personal
+- Personal
+- System","1,2,2,2,1",,,"1, 2, 2, 2, 1",,,,,,
+137,"HOTSPOT -
+You create a Power Automate flow as part of a managed solution. The flow alerts users when files are uploaded to a SharePoint location.
+Files are uploaded to SharePoint at a much higher rate than expected. Users report that they receive too many notifications about uploaded files.
+You need to stop the flow and correct the issue.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.",,"1, 1",,,,"1, 1",,,,,,
+138,"You create a new independent software vendor (ISV) solution for a Power Apps app.
+The Power Apps solution will be imported into multiple customer environments. The environments will have a large variety of solutions and
+publishers.
+You need to avoid naming conflicts during solution import.
+Which element should you configure?","A. Package type
+B. Configuration page
+C. Marketplace
+D. Prefix
+E. Version",D,d,,,D,,,,,,
+139,"DRAG DROP -
+A company has employees in France, Mexico, and the United States. You are creating a Power Apps app to allow users to add client records to Microsoft Dataverse. The default language for the company is English.
+The company wants the app to display each local language.
+You need to add the Spanish and French languages.
+Which four actions should you perform in sequence for each language? To answer, move the appropriate actions from the list of actions to the
+answer area and arrange them in the correct order.
+
+
+
+",,"- Select unmanaged …
+- Export translations
+- Add language code …
+- Import translations","4,2,6,7",,,"4, 2, 6, 7",,,,,,
+140,"A company uses a model-driven Power Apps app in a new environment. The base language is English.
+You need to configure French and Spanish.
+Which configuration component should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+",,"- Language packs
+- Environment","3,2",,,"3, 2",,,,,,
+141,"A company creates a Microsoft Power Apps app through the Power Apps designer portal for use in Microsoft Teams.
+This app needs to be promoted to the user acceptance testing environment.
+You need to complete the Microsoft recommended actions before you export the solution.
+Which two actions should you complete? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.","A. Run the solution checker.
+B. Set the Optimized embedding appearance field to true.
+C. Clone a solution.
+D. Write validation tests.
+E. Publish all changes.","A, E","a,e",,,"A, E",,,,,,
+142,"You create functionality for a company. The functionality includes a Microsoft Dataverse table with a form for data entry. The functionality will be distributed to other lines of business in the company, each with its own Dataverse environment.
+New forms must not be created in order for updates to the functionality to work correctly.
+You need to package the new functionality for distribution.
+What should you do?","A. Use a patch solution and disable the ability to create new forms for the table.
+B. Use a managed solution and include only the needed form.
+C. Use an unmanaged solution and include only the needed form.
+D. Use a managed solution and disable the ability to create new forms for the table",C,c,,,C,,,,,,
+143,"DRAG DROP -
+You are using a development environment to add a new column to a system table. You plan to move the changes to a test environment when they
+are complete.
+The changes must meet the following requirements:
+✑ Must be clearly identified so that they are not confused with system components and components from other solutions.
+✑ Must not affect any existing components in the test environment.
+You need to prepare a solution for deployment to the test environment.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and
+arrange them in the correct order.
+Select and Place:",,"- Create a new publisher
+- Create a new unmanaged …
+- Add the table to the solution...
+- Run the solution checker ...","3,7, 4, 6",,,"3, 7, 4, 6",,,,,,
+,Case Study Questions - ADatum Corporation,,,,,,,,,,,,
+144,"HOTSPOT -
+You need to address the executive's concerns regarding unnecessary data access.
+Which security changes should you make? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+",,"3, 1","3,1",,,"3, 1",,,,,,
+145,"HOTSPOT -
+You need to resolve the issue reported by substitute employees after they are assigned service requests.
+How should you configure the system? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+",,"1, 2","1,2",,,"1, 2",,,,,,
+146,"You need to implement the requirement for the VP of sales.
+What should you do?
+","A. Use a test account with a base security role with QV security added.
+B. Add the System Administrator security role to your user account.
+C. Use a test account with only QV security added.
+D. Add QV security to your user account.",A,A,,,A,,,,,,
+147,"Question
+You need to be able to move a Power Automate desktop flow used in the verification process to the testing environment.
+What should you do?
+","A. Share a copy of the desktop flow with a member of internal IT.
+B. Use the Export option in the flow to get the flow identifier and provide it to internal IT.
+C. Send a copy of the desktop flow to a member of internal IT.
+D. Create the desktop flow in a solution and provide it to internal IT.
+",D,d,,,D,,,,,,
+148,"HOTSPOT -
+You create a desktop flow to interact with a certification authority's website.
+You need to get data in and out of the desktop flow.
+How should you set up the input and output parameters? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point
+
+
+
+",,"2, 3","2, 3",,,"2, 3",,,,,,
+149,"HOTSPOT -
+You need to configure a Power Automate flow to send the email with the results to the client.
+What should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+",,"- Apply to each
+- Condition","3,2",,,"3, 2",,,,,,
+150,"Question
+You need to capture the Date Completed value from the website using a desktop flow.
+Which method should you use?
+","A. Use optical character recognition (OCR) on the screen to locate and extract the value.
+B. Display an input dialog and prompt the user to enter the value.
+C. Extract the value from the window the browser is using.
+D. Retrieve the value from the HTML element in the webpage.",C,c,,,C,,,,,,
+151,"Question
+You need to assign 10 percent of the Qualification records to the QV queue through table configuration by using a Power Automate flow.
+What should you do?
+","A. Create an autonumber column on the Qualification table and assign its qualification records if the number cleanly divides by 10.
+B. Create a calculated column on the Service Request table that sums the number of qualification records, generates a random number
+between zero and the number from the new field, and assigns each qualification record if the number generated is 10 percent or less of the
+value of the new field.
+C. Create a roll-up column on the Service Request table that is the count of qualification records, generates a random number between zero
+and the number from the new field, and assigns each qualification record if the number generated is 10 percent or less of the value of the new
+field.
+D. Create an autonumber column on the Service Request table and assign its qualification records if the number cleanly divides by 10.
+",A,a,,,A,,,,,,
+152,"HOTSPOT -
+You need to configure a Power Automate flow to send the email with the results to the client.
+What should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+",,"3, 3","3,3",,,"3, 3",,,,,,
+153,"You need to set up the new service request completion process.
+Which two components should you include in the solution? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point","A. connection reference
+B. business process flow
+C. Power Automate flow
+D. connection
+","A, C","a,c",,,"A, C",,,,,,
+154,"You need to add the missing components to the Verification Process Automation solution.
+Which two components should you add? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.","A. Service Request statuscode field
+B. Dataverse connection reference
+C. Qualification statuscode field
+D. On-premises data gateway reference
+E. Outlook connection reference","C, E","c,e",,,"C, E",,,,,,
+155,"HOTSPOT -
+You need to coordinate updates and deployment for managed solutions containing completed work without disrupting the system.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area
+
+
+
+
+
+
+
+",,"1, 2","1,2",,,"1, 2",,,,,,
+,Case Study Questions - Alpine Ski House,,,,,,,,,,,,
+156,"Question
+HOTSPOT -
+You need to embed the check-in solution into the communication solution. To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+",,"2, 4","2,4",,,"2, 4",,,,,,
+157,"Question
+You need to add controls to the check-in solution for the health and wellness questions.
+Which form control should you use?","A. Drop down
+B. Check box
+C. Text input",A,a,,,A,,,,,,
+158,"Question
+You need to design the resort portal to meet the business requirements.
+Which data source should you use?
+","A. Microsoft Dataverse
+B. Microsoft Excel
+C. Azure SQL Database
+D. SQL Server",A,a,,,A,,,,,,
+159,"Question
+HOTSPOT -
+You need to design the resort portal's email registration process.
+Which solutions should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+",,"2, 4","2,4",,,"2, 4",,,,,,
+160,"Question
+You need to design the resort portal's email registration process.
+Which solution should you use?","A. Default the invitation code from the email upon logging into the portal
+B. Auto-populate the invitation code field on the sign in screen from the email link
+C. Embed the invitation code in the email link URL
+D. Send the customer their username and temporary password in the email link",C,c,,,C,,,,,,
+161,"Question
+HOTSPOT -
+You need to design the FAQ solution to handle unknown responses.
+Which component should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+",,"2, 4","2,4",,,"2, 4",,,,,,
+162,"Question
+HOTSPOT -
+You need to embed the FAQbot into the communication solution.
+Which actions should you perform? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+",,"2, 1",,,,"2, 1",,,,,,
+163,"Question
+HOTSPOT -
+A guest asks about the start time of a specific scheduled event and wants to know what the snow conditions will be like during their stay.
+You need to determine how to design the chat solution to answer those questions.
+What should you do? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+",,"1, 1","1,1",,,"1, 1",,,,,,
+164,"Question
+You need to design the chat solution to answer the inquiry from Guest1.
+Which three components can you use? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.","A. Variables
+B. Escalations
+C. Smart match
+D. Synonyms
+E. Topics","- Variables
+- Escalations
+- Topics","a,b,e",,,"A, B, E",,,,,,
+165,"Question
+You need to create the FAQ solution content.
+What should you do first?","A. AI Builder
+B. Automate
+C. Suggest topics
+D. Trigger phrases",C,c,,,C,,,,,,
+166,"HOTSPOT -
+You need to design and create the solution for gathering contact information from guests for marketing purposes.
+What should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+",,"1, 3","1,3",,,"1, 3",,,,,,
+167,"Question
+You need to embed the business card solution in the check-in app.
+What should you use?","A. Input control
+B. Custom component
+C. Button control
+D. AI Builder component",D,d,,,D,,,,,,
+168,"HOTSPOT -
+You need to design the guest check-in solution.
+Which technologies should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+
+
+",,"- Canvas app
+- Power Apps mobile app","4,3",,,"4, 3",,,,,,
+169,"Question
+You need to design the resort portal's email registration process.
+Which solution should you use?","A. Default the invitation code from the email upon logging into the portal.
+B. Auto-populate the invitation code field on the sign in screen from the email link.
+C. Embed the invitation code in the email link URL.
+D. Send the customer their username and temporary password in the email link.",C,c,,,C,,,,,,
