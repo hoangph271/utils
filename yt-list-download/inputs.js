@@ -9,9 +9,15 @@ module.exports = [
     onlyAudio: true,
     needsCleanup: false,
   },
+  // {
+  //   directory: '/Users/garand/useSynced/useWatchlaters',
+  //   url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2bhHnOjO9y4JlFBnnZc4eLJ',
+  //   onlyAudio: false,
+  //   needsCleanup: true,
+  // },
   {
     directory: '/Users/garand/useSynced/useWatchlaters',
-    url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2bhHnOjO9y4JlFBnnZc4eLJ',
+    url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2bnlFH7VNeMh_ZUTQtRz3Me',
     onlyAudio: false,
     needsCleanup: true,
   }

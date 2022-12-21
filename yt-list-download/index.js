@@ -11,6 +11,8 @@ async function main() {
   const inputs = require('./inputs')
 
   for (const input of inputs) {
+    await fs.ensureDir(input.directory)
+
     const { items } = await ytpl(input.url, { pages: Number.POSITIVE_INFINITY })
 
     for (let i = 0; i < items.length; i++) {
@@ -71,9 +73,11 @@ const { FFMPEG_PATH = '/opt/homebrew/bin/ffmpeg' } = process.env
 const downloadMp4 = async (videoUrl, outputPath) => {
   const ws = fs.createWriteStream(outputPath)
 
-  ytdl(videoUrl, { filter: 'audioandvideo', format: 'mp4' }).pipe(ws)
+  const ytdlStream = ytdl(videoUrl, { filter: 'audioandvideo', format: 'mp4' })
 
-  await new Promise((resolve) => {
+  ytdlStream.pipe(ws)
+
+  await new Promise((resolve, reject) => {
     ws.once('finish', () => resolve())
   })
 
