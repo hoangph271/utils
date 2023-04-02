@@ -4,7 +4,7 @@
 
 module.exports = [
   {
-    directory: '/Volumes/SSD/useClouded/useMusics',
+    directory: '/Users/garand/useSynced/useMusics',
     url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2a0n2i_h6DPtOWn_v_KhL-S',
     onlyAudio: true,
     needsCleanup: false,
