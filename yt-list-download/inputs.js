@@ -4,7 +4,7 @@
 
 module.exports = [
   {
-    directory: '/Users/garand/useSynced/useMusics',
+    directory: '/Volumes/SSD/useClouded/useMusics',
     url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2a0n2i_h6DPtOWn_v_KhL-S',
     onlyAudio: true,
     needsCleanup: false,
@@ -15,10 +15,10 @@ module.exports = [
   //   onlyAudio: false,
   //   needsCleanup: true,
   // },
-  {
-    directory: '/Users/garand/useSynced/useWatchlaters',
-    url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2bnlFH7VNeMh_ZUTQtRz3Me',
-    onlyAudio: false,
-    needsCleanup: true,
-  }
+  // {
+  //   directory: '/Volumes/SSD/useClouded/useYouTube/Damn!',
+  //   url: 'https://www.youtube.com/playlist?list=PLpISLnShJQ2bnlFH7VNeMh_ZUTQtRz3Me',
+  //   onlyAudio: false,
+  //   needsCleanup: true,
+  // }
 ]
