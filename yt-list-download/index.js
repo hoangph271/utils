@@ -1,7 +1,6 @@
 const path = require('path')
 const ytdl = require('ytdl-core')
 const ytpl = require('ytpl')
-const ffmpeg = require('fluent-ffmpeg')
 const sanitizeFilename = require('sanitize-filename')
 const fs = require('fs-extra')
 
@@ -46,33 +45,12 @@ const downloadItem = async (i, items, input) => {
     return
   }
 
-  if (input.onlyAudio) {
-    await downloadMp3(videoUrl, tempFilePath)
-  } else {
-    await downloadMp4(videoUrl, tempFilePath)
-  }
+  await downloadMp4(videoUrl, tempFilePath)
+
 
   await fs.move(tempFilePath, filePath)
 
   console.info(`[Done] ${index}: ${filePath}`)
-}
-
-const downloadMp3 = async (videoUrl, outputPath) => {
-  const source = ytdl(videoUrl, {
-    filter: 'audioonly',
-    format: 'flv',
-  })
-
-  const process = new ffmpeg({ source })
-  process.setFfmpegPath(FFMPEG_PATH)
-  process.withAudioCodec('libmp3lame')
-    .toFormat('mp3')
-    .output(require('fs').createWriteStream(outputPath))
-    .run()
-
-  return new Promise(resolve => {
-    process.on('end', resolve)
-  })
 }
 
 // ! Not sure if this function works
@@ -87,16 +65,4 @@ const downloadMp4 = async (videoUrl, outputPath) => {
   await new Promise((resolve, reject) => {
     ws.once('finish', () => resolve())
   })
-
-  // const process = new ffmpeg({ source: fs.createReadStream(outputPath) })
-
-  // process.setFfmpegPath(FFMPEG_PATH)
-  // process.withAudioCodec('libmp3lame')
-  //   .toFormat('mp4')
-  //   .output(require('fs').createWriteStream(outputPath))
-  //   .run()
-
-  // return new Promise(resolve => {
-  //   process.on('end', resolve)
-  // })
 }
