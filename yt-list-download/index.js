@@ -6,6 +6,10 @@ const fs = require('fs-extra')
 
 require('dotenv').config()
 
+const blackLists = [
+  'Hozier - Take Me To Church',
+];
+
 async function main() {
   const inputs = require('./inputs')
 
@@ -16,11 +20,19 @@ async function main() {
       const { items } = await ytpl(input.url, { pages: Number.POSITIVE_INFINITY })
 
       for (let i = 0; i < items.length; i++) {
-        await downloadItem(i, items, input)
-          .catch((err) => {
-            console.error(err)
-            console.info(`Failed: ${items[i].title}`)
-          })
+        if (blackLists.some(keyword => items[i].title.toLowerCase().includes(keyword.toLowerCase()))) {
+          console.info(`[BLACK_LISTED]: ${items[i].title}`)
+          continue
+        }
+
+        console.info(`[START] ${items[i].title}`)
+
+        try {
+          await downloadItem(i, items, input)
+        } catch (error) {
+          console.error(err)
+          console.info(`Failed: ${items[i].title}`)
+        }
       }
     } catch (error) {
       console.error(error)
@@ -54,7 +66,7 @@ const downloadItem = async (i, items, input) => {
 }
 
 // ! Not sure if this function works
-const { FFMPEG_PATH = '/opt/homebrew/bin/ffmpeg' } = process.env
+// const { FFMPEG_PATH = '/opt/homebrew/bin/ffmpeg' } = process.env
 const downloadMp4 = async (videoUrl, outputPath) => {
   const ws = fs.createWriteStream(outputPath)
 
@@ -64,5 +76,6 @@ const downloadMp4 = async (videoUrl, outputPath) => {
 
   await new Promise((resolve, reject) => {
     ws.once('finish', () => resolve())
+    ws.once('error', reject)
   })
 }
