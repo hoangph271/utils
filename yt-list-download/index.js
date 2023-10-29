@@ -10,6 +10,8 @@ const blackLists = [
   'Hozier - Take Me To Church',
 ];
 
+const failOrSkipFiles = [];
+
 async function main() {
   const inputs = require('./inputs')
 
@@ -22,6 +24,7 @@ async function main() {
       for (let i = 0; i < items.length; i++) {
         if (blackLists.some(keyword => items[i].title.toLowerCase().includes(keyword.toLowerCase()))) {
           console.info(`[BLACK_LISTED]: ${items[i].title}`)
+          failOrSkipFiles.push(items[i].title);
           continue
         }
 
@@ -39,6 +42,9 @@ async function main() {
       console.error(`Failed for: ${JSON.stringify(input, null, 2)}`)
     }
   }
+
+  console.info('Fail or skip:')
+  console.info(failOrSkipFiles.join(';\n'))
 }
 
 main()
@@ -62,7 +68,7 @@ const downloadItem = async (i, items, input) => {
 
   await fs.move(tempFilePath, filePath)
 
-  console.info(`[Done] ${index}: ${filePath}`)
+  console.info(`[DONE] ${index}: ${filePath}`)
 }
 
 // ! Not sure if this function works
